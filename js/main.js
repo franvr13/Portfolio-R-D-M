@@ -436,39 +436,3 @@
     })();
 
 })(document.documentElement);
-
-document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('.smoothscroll');
-    links.forEach(link => {
-        link.addEventListener('click', function(e) {
-            e.preventDefault();
-            const targetId = this.getAttribute('href').substring(1);
-            const targetElement = document.getElementById(targetId);
-            if (targetElement) {
-                window.scrollTo({
-                    top: targetElement.offsetTop,
-                    behavior: 'smooth'
-                });
-            }
-        });
-    });
-
-    // Highlight the current section in the navigation
-    const sections = document.querySelectorAll('section');
-    const navLinks = document.querySelectorAll('.s-header__nav a');
-    window.addEventListener('scroll', function() {
-        let current = '';
-        sections.forEach(section => {
-            const sectionTop = section.offsetTop;
-            if (pageYOffset >= sectionTop - 60) {
-                current = section.getAttribute('id');
-            }
-        });
-        navLinks.forEach(link => {
-            link.classList.remove('current');
-            if (link.getAttribute('href').substring(1) === current) {
-                link.classList.add('current');
-            }
-        });
-    });
-});
