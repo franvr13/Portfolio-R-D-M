@@ -3858,7 +3858,7 @@ img.u-pull-left {
 
 .video-link:focus svg path,
 .video-link:hover svg path {
-  fill: white;
+  fill: black;
 }
 
 .video-caption {
