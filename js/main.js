@@ -45,7 +45,7 @@
         .add({
             targets: ['.s-intro__scroll-down'],
             opacity: [0, 1],
-            duration: 400
+            duration: 200,
         });
 
 
