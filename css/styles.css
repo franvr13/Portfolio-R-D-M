@@ -3234,7 +3234,7 @@ img.u-pull-left {
 }
 
 .s-intro__about-title span {
-  color: #dce8ff;
+  color: #ffffff;
 }
 
 /* --------------------------------------------------------------------
@@ -3821,7 +3821,7 @@ img.u-pull-left {
 /*  background-image: url(../images/video-bg-02.jpg); */
   left: 50%;
   right: 0;
-  background-color: #8db0f4;
+  background-color: #dce8ff;
 }
 
 .video-block__content {
