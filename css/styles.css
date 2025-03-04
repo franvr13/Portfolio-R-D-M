@@ -3148,9 +3148,10 @@ img.u-pull-left {
   letter-spacing: normal;
   text-align: center;
   margin: 0;
-  padding-bottom: calc(10 * var(--space));
+  padding-top: calc(6 * var(--space));
+  padding-bottom: calc(6 * var(--space));
   position: relative;
-  color: #091632;
+  color: #ffffff;
 }
 
 .s-intro__text span {
