@@ -3111,7 +3111,7 @@ img.u-pull-left {
 }
 
 .s-intro__bg {
-  background-color: #96b2da;
+  background-color: #091228;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -3130,7 +3130,7 @@ img.u-pull-left {
   content: "";
   display: block;
   background-color: black;
-  opacity: 0.3;
+  opacity: 0.5;
   position: absolute;
   top: 0;
   left: 0;
@@ -3155,7 +3155,7 @@ img.u-pull-left {
 }
 
 .s-intro__text span {
-  color: #091228;
+  color: #ffffff;
 }
 
 /* --------------------------------------------------------------------
