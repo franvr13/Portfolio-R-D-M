@@ -2795,9 +2795,10 @@ img.u-pull-left {
  * -------------------------------------------------------------------- */
 .s-header__logo {
   z-index: 3;
-  position: absolute;
-  top: 2.2rem;
-  left: 2rem;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-30%, -50%);
 }
 
 .s-header__logo a {
@@ -2811,7 +2812,7 @@ img.u-pull-left {
 .s-header__logo img {
   width: var(--logo-width);
   margin: 0;
-  vertical-align: bottom;
+  vertical-align: middle;
 }
 
 /* --------------------------------------------------------------------
@@ -2905,6 +2906,7 @@ img.u-pull-left {
   position: absolute;
   top: 0;
   right: 0.8rem;
+  z-index: 4;
 }
 
 .s-header__menu-toggle span {
@@ -2995,7 +2997,8 @@ img.u-pull-left {
   }
 
   .s-header__logo {
-    left: 2.8rem;
+    left: 50%;
+    transform: translate(-45%, -50%);
   }
 
   .s-header__nav-wrap {
