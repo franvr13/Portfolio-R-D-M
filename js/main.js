@@ -2,7 +2,6 @@
 
     'use strict';
 
-
     /* animations
      * -------------------------------------------------- */
     const tl = anime.timeline({
@@ -48,7 +47,6 @@
             duration: 200,
         });
 
-
     /* preloader
      * -------------------------------------------------- */
     const ssPreloader = function () {
@@ -65,7 +63,6 @@
         });
 
     }; // end ssPreloader
-
 
     /* mobile menu
      * ---------------------------------------------------- */
@@ -106,7 +103,6 @@
 
     }; // end ssMobileMenu
 
-
     /* highlight active menu link on pagescroll
      * ------------------------------------------------------ */
     const ssScrollSpy = function () {
@@ -143,7 +139,6 @@
         }
 
     }; // end ssScrollSpy
-
 
     /* animate elements if in viewport
      * ------------------------------------------------------ */
@@ -209,7 +204,6 @@
 
     }; // end ssAnimateOnScroll
 
-
     /* swiper
      * ------------------------------------------------------ */
     const ssSwiper = function () {
@@ -268,7 +262,6 @@
         });
 
     }; // end ssSwiper
-
 
     /* photoswipe
     * ----------------------------------------------------- */
@@ -330,7 +323,6 @@
 
     };  // end ssPhotoSwipe
 
-
     /* video Lightbox
      * ------------------------------------------------------ */
     const ssVideoLightbox = function () {
@@ -351,7 +343,6 @@
         });
 
     }; // end ssVideoLightbox
-
 
     /* alert boxes
      * ------------------------------------------------------ */
@@ -374,7 +365,6 @@
         })
 
     }; // end ssAlertBoxes
-
 
     /* smoothscroll
      * ------------------------------------------------------ */
@@ -417,7 +407,6 @@
         });
 
     }; // end ssMoveTo
-
 
     /* Initialize
      * ------------------------------------------------------ */
