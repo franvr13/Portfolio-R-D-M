@@ -37,7 +37,7 @@ Este portfolio ha sido desarrollado por encargo para dar visibilidad a los proye
 
 Si deseas hablar conmigo para crear un proyecto web, no dudes en contactar conmigo a través de:
 
-**Linkedin** https://www.linkedin.com/in/franciscovillalbaroldán/
+**Linkedin** https://www.linkedin.com/in/franciscovillalbaroldán/ target:"_blank"
 
 ## Licencia
 
