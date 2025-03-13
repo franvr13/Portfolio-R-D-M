@@ -33,11 +33,15 @@ Este portfolio ha sido desarrollado por encargo para dar visibilidad a los proye
 2. Abrir `index.html` en un navegador web.
 3. Mediante el link de la web del proyecto: <a href="https://web-rafaela-diaz-munoz.vercel.app" target="_blank">https://web-rafaela-diaz-munoz.vercel.app</a>
 
+Nota: Para abrir el enlace en una nueva pestaña, haz clic derecho en el enlace y selecciona "Abrir enlace en una nueva pestaña".
+
 ## Contácto
 
 Si deseas hablar conmigo para crear un proyecto web, no dudes en contactar conmigo a través de:
 
 **Linkedin** <a href="https://www.linkedin.com/in/franciscovillalbaroldán/" target="_blank">https://www.linkedin.com/in/franciscovillalbaroldán/</a>
+
+Nota: Para abrir el enlace en una nueva pestaña, haz clic derecho en el enlace y selecciona "Abrir enlace en una nueva pestaña".
 
 ## Licencia
 
