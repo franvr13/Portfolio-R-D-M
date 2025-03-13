@@ -31,13 +31,13 @@ Este portfolio ha sido desarrollado por encargo para dar visibilidad a los proye
    git clone <URL_DEL_REPOSITORIO>
    ```
 2. Abrir `index.html` en un navegador web.
-3. Mediante el link de la web del proyecto: https://web-rafaela-diaz-munoz.vercel.app
+3. Mediante el link de la web del proyecto: <a href="https://web-rafaela-diaz-munoz.vercel.app" target="_blank">https://web-rafaela-diaz-munoz.vercel.app</a>
 
 ## Contácto
 
 Si deseas hablar conmigo para crear un proyecto web, no dudes en contactar conmigo a través de:
 
-**Linkedin** https://www.linkedin.com/in/franciscovillalbaroldán/
+**Linkedin** <a href="https://www.linkedin.com/in/franciscovillalbaroldán/" target="_blank">https://www.linkedin.com/in/franciscovillalbaroldán/</a>
 
 ## Licencia
 
