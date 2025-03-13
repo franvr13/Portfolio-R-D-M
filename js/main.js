@@ -5,14 +5,14 @@
     /* animations
      * -------------------------------------------------- */
     const tl = anime.timeline({
-        easing: 'easeInOutCubic',
-        duration: 5,
+        easing: 'easeOutExpo',
+        duration: 1,
         autoplay: false
     })
         .add({
             targets: '#loader',
-            opacity: 100,
-            duration: 5,
+            opacity: 10,
+            duration: 1,
             begin: function (anim) {
                 window.scrollTo(0, 0);
             }
