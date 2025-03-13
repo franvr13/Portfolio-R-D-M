@@ -3121,7 +3121,7 @@ img.u-pull-left {
   width: 100%;
   position: absolute;
   top: calc(
-    1.5 * var(--text-huge-line-height) * var(--text-huge) *
+    0.1 * var(--text-huge-line-height) * var(--text-huge) *
       var(--text-huge-multiplier)
   );
   right: 0;
@@ -3151,8 +3151,8 @@ img.u-pull-left {
   letter-spacing: normal;
   text-align: center;
   margin: 0;
-  padding-top: calc(6 * var(--space));
-  padding-bottom: calc(6 * var(--space));
+  padding-top: calc(1 * var(--space));
+  padding-bottom: calc(5 * var(--space));
   position: relative;
   color: #ffffff;
 }
