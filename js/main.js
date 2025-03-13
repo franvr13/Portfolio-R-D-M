@@ -6,20 +6,20 @@
      * -------------------------------------------------- */
     const tl = anime.timeline({
         easing: 'easeInOutCubic',
-        duration: 10,
+        duration: 5,
         autoplay: false
     })
         .add({
             targets: '#loader',
-            opacity: 0,
-            duration: 10,
+            opacity: 100,
+            duration: 5,
             begin: function (anim) {
                 window.scrollTo(0, 0);
             }
         })
         .add({
             targets: '#preloader',
-            opacity: 0,
+            opacity: 100,
             complete: function (anim) {
                 document.querySelector("#preloader").style.visibility = "hidden";
                 document.querySelector("#preloader").style.display = "none";
